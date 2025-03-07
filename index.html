@@ -3,6 +3,23 @@
 <head>
     <link href="style.css" rel="stylesheet"/>
     <title>Portfolio</title>
+    <style>
+        @keyframes appear{
+            from{
+                opacity: 0;
+                scale: 0;
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+            }
+        }
+        div{
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+    </style>
 </head>
 
 <body onload="draw()">
@@ -33,10 +50,17 @@
         <h2>
             <div class="hex"></div><span>Previous projects</span></h2>
         <div class="subtext coll">
+            <img src="reindeer_racing.png" style="width: 400px;height: 170px;">
+            <br>
+            <br>
             <h3> Reindeer racing <a href="https://store.steampowered.com/app/3273900/Reindeer_Racing/">[Steam link]</a></h3> 
             A multiplayer party racing game where you and your friends race with reindeer through the cold north. Trigger falling trees and other obstacles to hinder rivals and give yourself and edge and win the race!
+            <br>
+            <br>
+            <img src="pogo_blast.png" style="width: 300px;height: 170px;">
             <h3> Pogo Blast <a href="https://juhot.itch.io/pogo-blast">[Itch.io link]</a></h3>
             Chaotic multiplayer shooter, where player can jump and shoot missiles with the pogo stick. The pogo can be used to jump from wall to wall to build up speed and reach higher elevations.
+             
         </div>
 
             
@@ -48,6 +72,20 @@
                 <li>Discord: <a>Kuhis#8689</a></li>
             </ul>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </main>
 </body>
 
