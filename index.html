@@ -3,36 +3,19 @@
 <head>
     <link href="style.css" rel="stylesheet"/>
     <title>Portfolio</title>
-    <style>
-        @keyframes appear{
-            from{
-                opacity: 0;
-                scale: 0;
-            }
-            to{
-                opacity: 1;
-                scale: 1;
-            }
-        }
-        div{
-            animation: appear linear;
-            animation-timeline: view();
-            animation-range: entry 0 cover 40%;
-        }
-    </style>
 </head>
 
 <body onload="draw()">
     <canvas id="bg"></canvas>
     <main id="content">
         <h1>
-            <div class="hex moved"></div><span>Juhana Jaakkola</span></h1>
-        <div class="subtext" id="main">
+            <div></div><span class="name-title">Juhana Jaakkola</span></h1>
+        <div class="about-me" id="main">
             <p>I'm a junior game programmer, and my strenghts are fast problem solving and analytical thinking. During free time i make games on my own and educate myself more about gaming and programming.</p>
         </div>
         <h2>
-            <div class="hex"></div><span>Skills</span></h2>
-        <div class="subtext coll">
+            <div></div><span class="skills-title">Skills</span></h2>
+        <div class="skills">
             <ul>
                 <li>C#</li>
                 <li>C++</li>
@@ -40,49 +23,46 @@
         </div>
         
         <h2>
-            <div class="hex"></div><span>Languages</span></h2>
-        <div class="subtext coll">
+            <div></div><span class="languages-title">Languages</span></h2>
+        <div class="languages">
             <ul>
                 <li>Finnish: Native</li>
                 <li>English: Professional</li>
             </ul>
         </div>
         <h2>
-            <div class="hex"></div><span>Previous projects</span></h2>
+            <div class="hex"></div><span class="previous-projects">Previous projects</span></h2>
         <div class="subtext coll">
-            <img src="reindeer_racing.png" style="width: 400px;height: 170px;">
+            <img class= "reindeer-racing-image" src="reindeer_racing.png">
             <br>
             <br>
-            <h3> Reindeer racing <a href="https://store.steampowered.com/app/3273900/Reindeer_Racing/">[Steam link]</a></h3> 
-            A multiplayer party racing game where you and your friends race with reindeer through the cold north. Trigger falling trees and other obstacles to hinder rivals and give yourself and edge and win the race!
+            <h3 class="reindeer-racing-title"> Reindeer racing <a href="https://store.steampowered.com/app/3273900/Reindeer_Racing/">[Steam link]</a></h3> 
+            <p class="reindeer-racing">A multiplayer party racing game where you and your friends race with reindeer through the cold north. Trigger falling trees and other obstacles to hinder rivals and give yourself and edge and win the race!</p>
             <br>
             <br>
-            <img src="pogo_blast.png" style="width: 300px;height: 170px;">
-            <h3> Pogo Blast <a href="https://juhot.itch.io/pogo-blast">[Itch.io link]</a></h3>
-            Chaotic multiplayer shooter, where player can jump and shoot missiles with the pogo stick. The pogo can be used to jump from wall to wall to build up speed and reach higher elevations.
+            <img class= "pogo-blast-image" src="pogo_blast.png">
+            <h3 class="pogo-blast-title"> Pogo Blast <a href="https://juhot.itch.io/pogo-blast">[Itch.io link]</a></h3>
+            <p class="pogo-blast">Chaotic multiplayer shooter, where player can jump and shoot missiles with the pogo stick. The pogo can be used to jump from wall to wall to build up speed and reach higher elevations.</p>
              
         </div>
 
-            
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>  
         <h2>
-            <div class="hex"></div><span>Contact Me</span></h2>
-        <div class="subtext coll">
+            <div class="hex"></div><span class="contact-me-title">Contact Me</span></h2>
+        <div class="contact-me">
             <ul>
                 <li>E-mail: <a>juhana.jaakkola@gmail.com</a></li>
                 <li>Discord: <a>Kuhis#8689</a></li>
             </ul>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <br>
         <br>
         <br>
