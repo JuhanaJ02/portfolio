@@ -59,6 +59,30 @@ body {
     font-size: 16px;
     padding: 0 40px;
   }
+  .rangers-reserve-image{
+    width: 400px;
+    height: 280px;
+    float: left;
+    padding: 20px 50px;
+  }
+  .rangers-reserve-title{
+    font-size: 24px;
+    padding: 0 40px;
+  }
+  .rangers-reserve{
+    font-size: 16px;
+    padding: 0 40px;
+  }
+  .eviction-day-image{
+    width: 160px;
+    height: 160px;
+  }
+  .eviction-day-title{
+    font-size: 24px;
+  }
+  .eviction-day{
+    font-size: 16px;
+  }
   .contact-me-title{
     font-size: 24px;
     padding: 0 40px;
