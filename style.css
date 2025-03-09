@@ -34,7 +34,7 @@ body {
     width: 400px;
     height: 180px;
     float: left;
-    padding: 20px 50px;
+    padding: 60px 50px;
   }
   
   .reindeer-racing-title{
@@ -74,8 +74,10 @@ body {
     padding: 0 40px;
   }
   .eviction-day-image{
-    width: 160px;
-    height: 160px;
+    width: 400px;
+    height: 240px;
+    float: left;
+    padding: 20px 50px;
   }
   .eviction-day-title{
     font-size: 24px;
@@ -89,4 +91,9 @@ body {
   }
   .contact-me{
     font-size: 16px;
+  }
+  .tag{
+    font-size: 12px;
+    border: 1px solid;
+    padding: 3px;
   }
